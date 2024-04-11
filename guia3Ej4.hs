@@ -33,13 +33,17 @@ esMultiplo:: Int -> Int -> Int
 esMultiplo x n  | mod x n == 0 = x
                 | otherwise = 0
 
--- Ejercicio 4d
+-- Ejercicio 4f
 posPrimerPar:: (Int,Int,Int) -> Int
 posPrimerPar(x,y,z) | esMultiplo x 2 == x = 1
                     | esMultiplo y 2 == y = 2
                     | esMultiplo z 2 == z = 3
                     | otherwise = 4
 
--- Ejercicio 4e
+-- Ejercicio 4g
 crearPar:: Char -> Char -> (Char,Char)
 crearPar a b = (a,b)
+
+-- Ejercicio 4h
+invertir:: (String,String) -> (String,String)
+invertir (a,b) = (b,a)
