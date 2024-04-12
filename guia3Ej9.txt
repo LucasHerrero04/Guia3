@@ -1,0 +1,49 @@
+Ejercicio 9a
+
+Esta funcion toma un numero real y devuelve un 1 si el numero es 0 y un 0 si el numero es distinto a 0
+problema f (a:R) -> R
+        requiere = {True}
+        asegura = {res = 1 si a == 0}
+        asegura = {res = 0 si a /= 0}
+
+---------------------------------------------------------------------------------
+Ejercicio 9b
+
+Esta funcion toma un numero real y devuelve un 15 si el numero es 1 y devuelve un -15 si el numero es -1
+problema f (a:R) -> R
+        requiere = {a == 1 || a == -1}
+        asegura = {res = 15 si a == 1}
+        asegura = {res = -15 si a == -1}
+
+---------------------------------------------------------------------------------
+Ejercicio 9c
+
+Esta funcion toma un numero real y devuelve un 7 si es menor o igual a 7 y devuelve un 5 si es mayor a 9
+problema f (a:R) -> R
+        requiere = {True}
+        asegura = {si a es menor o igual a 9, res = 7}
+        asegura = {si a es mayor a 9, entonces res = 5}
+
+---------------------------------------------------------------------------------
+Ejercicio 9d
+
+Esta funcion toma dos numeros enteros y devuelve la suma de estos dividido 2
+problema f (a:R, b:R) -> R
+        requiere = {True}
+        asegura = {res = (x+y)/2}
+
+---------------------------------------------------------------------------------
+Ejercicio 9e
+
+Esta funcion toma una dupla de numeros reales y devuelve la suma de la primer componente con la segunda la divide por 2
+problema f (A:R^2) -> R 
+        requiere = {True}
+        asegura = {res = (A0 + A1)/2}
+
+---------------------------------------------------------------------------------
+Ejercicio 9d
+
+Esta funcion toma un numero real y un numero entero y nos dice si la parte entera de ambos numeros es la misma
+problema f (a: R, b:Z) -> Bool
+        requiere = {True}
+        asegura = {res = True si la parte entera de a es igual a b}
